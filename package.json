@@ -1,0 +1,32 @@
+{
+  "name": "modular-programming-web-storage-",
+  "version": "1.0.0",
+  "description": "testing npm + node",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "node index.js",
+    "poststart": "node index.js",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solod-S/Modular-programming-Web-Storage-.git"
+  },
+  "author": "Sergey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Solod-S/Modular-programming-Web-Storage-/issues"
+  },
+  "homepage": "https://github.com/Solod-S/Modular-programming-Web-Storage-#readme",
+  "dependencies": {
+    "joi": "^17.6.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "parcel-bundler": "^1.12.5"
+  }
+}
